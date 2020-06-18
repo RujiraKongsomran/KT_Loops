@@ -45,7 +45,7 @@ class MainActivity : AppCompatActivity() {
                 if (x % 2 != 0)
                     Log.d("DEBUG", "X =  $x")
                 else {
-                    continue
+                    break
                 }
             }
         }
