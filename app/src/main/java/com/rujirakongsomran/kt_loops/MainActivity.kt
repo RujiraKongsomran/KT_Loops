@@ -25,11 +25,18 @@ class MainActivity : AppCompatActivity() {
 //                Log.d("DEBUG", "index : $index = $value")
 
             // While Loop
+//            var x = 0
+//            while (x < 10) {
+//                Log.d("DEBUG", "" + x)
+//                x++
+//            }
+
+            // Do - While Loop
             var x = 0
-            while (x < 10) {
+            do {
                 Log.d("DEBUG", "" + x)
                 x++
-            }
+            } while (x < 10)
 
         }
 
