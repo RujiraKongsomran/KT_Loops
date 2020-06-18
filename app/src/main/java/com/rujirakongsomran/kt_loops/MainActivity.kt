@@ -12,19 +12,24 @@ class MainActivity : AppCompatActivity() {
 
         btnPlayString.setOnClickListener {
             // For loop
-            val items1 = listOf<Int>(1, 2, 3, 4, 5, 6, 7, 8, 9, 10)
-            for (index in items1)
-                Log.d("DEBUG", "" + index)
+//            val items1 = listOf<Int>(1, 2, 3, 4, 5, 6, 7, 8, 9, 10)
+//            for (index in items1)
+//                Log.d("DEBUG", "" + index)
+//
+//            val items2 = listOf<Int>(1, 2, 3, 4, 5, 6, 7, 8, 9, 10)
+//            for (index in items2.indices)
+//                Log.d("DEBUG", "index : $index = ${items2[index]}")
+//
+//            val items3 = listOf<Int>(1, 2, 3, 4, 5, 6, 7, 8, 9, 10)
+//            for ((index, value) in items3.withIndex())
+//                Log.d("DEBUG", "index : $index = $value")
 
-            val items2 = listOf<Int>(1, 2, 3, 4, 5, 6, 7, 8, 9, 10)
-            for (index in items2.indices)
-                Log.d("DEBUG", "index : $index = ${items2[index]}")
-
-            val items3 = listOf<Int>(1, 2, 3, 4, 5, 6, 7, 8, 9, 10)
-            for ((index, value) in items3.withIndex())
-                Log.d("DEBUG", "index : $index = $value")
-
-
+            // While Loop
+            var x = 0
+            while (x < 10) {
+                Log.d("DEBUG", "" + x)
+                x++
+            }
 
         }
 
