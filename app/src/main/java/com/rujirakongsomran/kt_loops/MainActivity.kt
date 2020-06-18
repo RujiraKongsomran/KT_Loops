@@ -32,13 +32,22 @@ class MainActivity : AppCompatActivity() {
 //            }
 
             // Do - While Loop
+//            var x = 0
+//            do {
+//                Log.d("DEBUG", "" + x)
+//                x++
+//            } while (x < 10)
+
+            // break and continue
             var x = 0
-            do {
-                Log.d("DEBUG", "" + x)
+            while (x < 10) {
                 x++
-            } while (x < 10)
-
+                if (x % 2 != 0)
+                    Log.d("DEBUG", "X =  $x")
+                else {
+                    continue
+                }
+            }
         }
-
     }
 }
